@@ -7,7 +7,7 @@ export const ContactSection = () => {
   const [showForm, setShowForm] = useState(false);
 
   return (
-    <div className='py-16 pt-12 lg:py-24 lg:pt-20'>
+    <div className='py-16 pt-12 lg:py-24 lg:pt-20' id='contact'>
       <div className="container">
         <div className='overflow-hidden relative z-10 bg-gradient-to-r from-emerald-300 to-sky-400 
         text-gray-900 py-8 px-10 rounded-3xl text-center md:text-left'>
@@ -82,8 +82,7 @@ export const ContactSection = () => {
               />
               <button 
                 type="submit" 
-                className="bg-gray-900 text-white py-2 px-4 rounded-md hover:bg-gray-800"
-              >
+                className="bg-gray-900 text-white py-2 px-4 rounded-md hover:bg-gray-800">
                 Send
               </button>
             </form>
